@@ -1,0 +1,287 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+.container{
+  width: 80%;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.logo h1{
+ text-align: center;
+}
+.nav-icon img{
+  position: relative;
+  margin-left: 15px;
+}
+.nav{
+  position: absolute;
+  display: none;
+}
+.nav ul{
+  display: block;
+}
+.nav ul li{
+  width: 120px;
+  padding: 10px;
+  text-transform: capitalize;
+  background-color: rgb(222, 42, 210);
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.nav ul li:hover{
+  padding: 10px;
+  list-style: none;
+  text-transform: capitalize;
+  background: rgba(141, 222, 116, 0.749);
+  transition: .8s;
+  -webkit-transition: .8s;
+}
+
+
+.nav-icon:hover .nav{
+  display: block;
+  
+}
+
+
+.s-n{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.section-1{
+  background-color: rgba(243, 65, 216, 0.205);
+  background-image: none;
+}
+.my-style-1{
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img-area{
+ width: 100%;
+ display: block;
+ 
+}
+.img-area img{
+  width: 300px;
+  margin: auto;
+}
+
+.text-area{
+  text-align: center;
+}
+
+
+.about-us{
+  width: 100%;
+}
+
+
+.row{
+  display: block;
+}
+.fe-text-area h6{
+  text-align: center;
+  margin-top: 20px;
+}
+.page, .site, .user{
+  border-radius: 10px;
+  margin-top: 15px;
+  
+}
+.fe-img-area img{
+  width: 100%;
+}
+
+
+
+.content, .tracking, .analysis{
+  width: 100%;
+  
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+
+.best-in{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+.text h6{
+  text-align: center;
+  
+}
+
+
+.section-9{
+  width: 100%;
+  margin-top: 50px;
+}
+.mail-area{
+  text-align: center;
+  padding: 0px;
+}
+.mail-area h4{
+  color: rgb(248, 15, 15);
+  text-transform: capitalize;
+}
+.mail-area h1{
+  color: rgb(254, 31, 239);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.feed{
+  color: rgb(254, 31, 239);
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+
+
+  
+
+  .feed-images{
+    display: block;
+    width: auto;
+    float: none;
+    text-align: center;
+  }
+  .feed-images img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    
+  }
+  .copyright p{
+    color: red;
+    text-align: center;
+  }
+
+  .support ul{
+    display: block;
+    margin: auto;
+  }
+  .support ul li a{
+    color: rgb(255, 11, 247);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+
+  
+
+  
+
+.row{
+  display: block;
+  margin: auto;
+}
+
+.card{
+  width: 100%;
+  height: fit-content;
+}
+.icon-desc{
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-style-desc{
+  margin-top: 40px;
+}
+.desc-img{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.purchase-now{
+  width: 100%;
+  
+}
+
+input[type=submit]{
+  width: 100%;
+  padding: 12px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+}
+[class*="col-"] {
+float: left;
+padding: 5px;
+
+}
+
+/* Small devices (portrait tablets and large phones, 501px and up) */
+@media only screen and (min-width: 501px) {
+  .section-9{
+    background: rgba(254, 31, 239, 0.267);
+    
+  }
+  
+  .nav-icon img{
+    display: none;
+  }
+
+
+
+
+
+   /* For desktop: */
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  
+}
+
+}
+
